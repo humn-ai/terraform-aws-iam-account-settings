@@ -1,3 +1,7 @@
+# -----------------------------------------------------------------------------
+# Variables: TF-MOD-AWS-IAM-ACCOUNT-SETTINGS
+# -----------------------------------------------------------------------------
+
 output "account_alias" {
   description = "IAM account alias"
   value       = local.account_alias
